@@ -12,6 +12,7 @@ const CourseList = (props) => {
     }
     return (
         <div>
+            
             <Card creditCompleteBySemester={creditCompleteBySemester}>
                 <ul className="list-group list-group-flush">
                     {props.courses.map((course) => {
