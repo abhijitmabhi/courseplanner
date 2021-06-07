@@ -4,7 +4,7 @@ const Card = (props) => {
     return (
         <div className="card">
             <div className="card-header">
-                1st Semester
+               Credit Complete: {props.creditCompleteBySemester}
             </div>
            {props.children}
         </div>
